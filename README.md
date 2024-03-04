@@ -94,4 +94,4 @@ ggplot() +
   theme_void()
 ```
 
-![](man/figures/example2.png)
+![](man/figures/example3.png)
