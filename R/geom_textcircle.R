@@ -7,7 +7,7 @@
 #' @param na.rm na.rm
 #' @param show.legend show.legend
 #' @param inherit.aes inherit.aes
-#' @param ...
+#' @param ... inherited
 #'
 #' @export
 
@@ -39,7 +39,7 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
 #' @param na.rm na.rm
 #' @param show.legend show.legend
 #' @param inherit.aes inherit.aes
-#' @param ... 
+#' @param ... inherited
 #'
 #' @export
 

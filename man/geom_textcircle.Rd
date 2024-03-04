@@ -30,7 +30,7 @@ geom_textcircle(
 
 \item{inherit.aes}{inherit.aes}
 
-\item{...}{}
+\item{...}{inherited}
 }
 \description{
 Geom function for textcircle
