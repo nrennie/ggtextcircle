@@ -5,6 +5,7 @@
 #' @param r radius of inner circle
 #' @param x0 x coordinate of inner circle
 #' @param y0 y coordinate of inner circle
+#' @importFrom rlang .data
 
 compute_panel_textcircle <- function(data, scales, r = 3, x0 = 0, y0 = 0) {
   dplyr::mutate(

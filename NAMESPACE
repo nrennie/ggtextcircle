@@ -2,3 +2,4 @@
 
 export(geom_textcircle)
 export(stat_textcircle)
+importFrom(rlang,.data)

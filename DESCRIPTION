@@ -9,7 +9,8 @@ Depends:
   R (>= 3.6)
 Imports:
   dplyr,
-  ggplot2
+  ggplot2,
+  rlang
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
