@@ -10,6 +10,7 @@ geom_textcircle(
   data = NULL,
   position = "identity",
   na.rm = FALSE,
+  hjust = 1,
   show.legend = NA,
   inherit.aes = TRUE,
   ...

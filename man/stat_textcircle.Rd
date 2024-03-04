@@ -10,6 +10,7 @@ stat_textcircle(
   data = NULL,
   position = "identity",
   na.rm = FALSE,
+  hjust = 1,
   show.legend = NA,
   inherit.aes = TRUE,
   ...
@@ -25,6 +26,8 @@ stat_textcircle(
 \item{position}{position}
 
 \item{na.rm}{na.rm}
+
+\item{hjust}{alignment of text}
 
 \item{show.legend}{show.legend}
 

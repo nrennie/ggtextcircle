@@ -4,7 +4,15 @@
 \alias{compute_panel_textcircle}
 \title{Compute textcircle}
 \usage{
-compute_panel_textcircle(data, scales, r = 3, x0 = 0, y0 = 0)
+compute_panel_textcircle(
+  data,
+  scales,
+  r = 3,
+  x0 = 0,
+  y0 = 0,
+  start = 45,
+  end = -45
+)
 }
 \arguments{
 \item{data}{data}
@@ -16,6 +24,10 @@ compute_panel_textcircle(data, scales, r = 3, x0 = 0, y0 = 0)
 \item{x0}{x coordinate of inner circle}
 
 \item{y0}{y coordinate of inner circle}
+
+\item{start}{start degree (should be between 0 and 180)}
+
+\item{end}{end degree (should be between 0 and -180)}
 }
 \description{
 Compute textcircle

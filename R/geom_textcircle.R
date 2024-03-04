@@ -5,6 +5,7 @@
 #' @param data data
 #' @param position position
 #' @param na.rm na.rm
+#' @param hjust alignment of text
 #' @param show.legend show.legend
 #' @param inherit.aes inherit.aes
 #' @param ... inherited
@@ -16,6 +17,7 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
                             data = NULL,
                             position = "identity",
                             na.rm = FALSE,
+                            hjust = 1,
                             show.legend = NA,
                             inherit.aes = TRUE, ...) {
   ggplot2::layer(
@@ -26,7 +28,7 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
     position = position,
     show.legend = show.legend,
     inherit.aes = inherit.aes,
-    params = list(na.rm = na.rm, ...)
+    params = list(na.rm = na.rm, hjust = hjust, ...)
   )
 }
 
