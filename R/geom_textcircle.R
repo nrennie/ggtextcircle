@@ -47,4 +47,3 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
 #' @export
 
 geom_textcircle <- stat_textcircle
-
