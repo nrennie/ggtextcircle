@@ -30,7 +30,7 @@ stat_textcircle(
 
 \item{inherit.aes}{inherit.aes}
 
-\item{...}{}
+\item{...}{inherited}
 }
 \description{
 Stat function for textcircle
