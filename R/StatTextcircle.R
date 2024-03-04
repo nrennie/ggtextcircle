@@ -1,15 +1,11 @@
 #' Compute textcircle
 #'
-#' @param data
-#' @param scales
-#' @param r
-#' @param x0
-#' @param y0
-#'
-#' @return
-#' @export
-#'
-#' @examples
+#' @param data data
+#' @param scales scales
+#' @param r radius of inner circle
+#' @param x0 x coordinate of inner circle
+#' @param y0 y coordinate of inner circle
+
 compute_panel_textcircle <- function(data, scales, r = 3, x0 = 0, y0 = 0) {
   dplyr::mutate(
     data,
@@ -19,9 +15,6 @@ compute_panel_textcircle <- function(data, scales, r = 3, x0 = 0, y0 = 0) {
     angle = 180 + 360 * (theta / (2 * pi))
   )
 }
-
-
-
 
 StatTextcircle <- ggplot2::ggproto(
   `_class` = "StatTextcircle",
@@ -33,4 +26,3 @@ StatTextcircle <- ggplot2::ggproto(
     y = ggplot2::after_stat(y)
   )
 )
- # requires label as aes

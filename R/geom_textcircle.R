@@ -1,18 +1,16 @@
 #' Stat function for textcircle
 #'
-#' @param geom
-#' @param mapping
-#' @param data
-#' @param position
-#' @param na.rm
-#' @param show.legend
-#' @param inherit.aes
+#' @param geom geom
+#' @param mapping mapping
+#' @param data data
+#' @param position position
+#' @param na.rm na.rm
+#' @param show.legend show.legend
+#' @param inherit.aes inherit.aes
 #' @param ...
 #'
-#' @return
 #' @export
-#'
-#' @examples
+
 stat_textcircle <- function(geom = ggplot2::GeomText,
                             mapping = NULL,
                             data = NULL,
@@ -34,18 +32,16 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
 
 #' Geom function for textcircle
 #'
-#' @param geom 
-#' @param mapping 
-#' @param data 
-#' @param position 
-#' @param na.rm 
-#' @param show.legend 
-#' @param inherit.aes 
+#' @param geom geom
+#' @param mapping mapping
+#' @param data data
+#' @param position position
+#' @param na.rm na.rm
+#' @param show.legend show.legend
+#' @param inherit.aes inherit.aes
 #' @param ... 
 #'
-#' @return
 #' @export
-#'
-#' @examples
+
 geom_textcircle <- stat_textcircle
 
