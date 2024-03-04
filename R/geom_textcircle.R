@@ -39,6 +39,7 @@ stat_textcircle <- function(geom = ggplot2::GeomText,
 #' @param data data
 #' @param position position
 #' @param na.rm na.rm
+#' @param hjust alignment of text
 #' @param show.legend show.legend
 #' @param inherit.aes inherit.aes
 #' @param ... inherited

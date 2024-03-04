@@ -27,6 +27,8 @@ geom_textcircle(
 
 \item{na.rm}{na.rm}
 
+\item{hjust}{alignment of text}
+
 \item{show.legend}{show.legend}
 
 \item{inherit.aes}{inherit.aes}
