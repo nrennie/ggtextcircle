@@ -75,8 +75,8 @@ ggplot() +
       label = glue::glue("February 29 is a leap day (or 'leap year day'), an
                          intercalary date added periodically to create leap
                          years in the Julian and Gregorian calendars. Wikpedia
-                         lists {nrow(plot_births)} <span style='color: #35978f;'>
-                         births</span> and {nrow(plot_deaths)}
+                         lists {nrow(dplyr::filter(births, year_birth >= 1900))} <span style='color: #35978f;'>
+                         births</span> and {nrow(dplyr::filter(deaths, year_death >= 1900))}}
                          <span style='color: #bf812d;'>deaths</span> on a leap
                          day since 1900.")
     ),
