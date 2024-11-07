@@ -32,9 +32,5 @@ StatTextcircle <- ggplot2::ggproto(
   `_class` = "StatTextcircle",
   `_inherit` = ggplot2::Stat,
   required_aes = c("label"),
-  compute_panel = compute_panel_textcircle,
-  default_aes = ggplot2::aes(
-    x = ggplot2::after_stat(x),
-    y = ggplot2::after_stat(y)
-  )
+  compute_panel = compute_panel_textcircle
 )
